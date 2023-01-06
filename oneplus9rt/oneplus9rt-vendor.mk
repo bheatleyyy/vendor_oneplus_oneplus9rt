@@ -6,8 +6,10 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oneplus/oneplus9rt
 
 PRODUCT_COPY_FILES += \
+    vendor/oneplus/oneplus9rt/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service \
     vendor/oneplus/oneplus9rt/proprietary/odm/bin/hw/vendor.pixelworks.hardware.display.iris-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.pixelworks.hardware.display.iris-service \
     vendor/oneplus/oneplus9rt/proprietary/odm/bin/hw/vendor.pixelworks.hardware.feature.irisfeature-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.pixelworks.hardware.feature.irisfeature-service \
+    vendor/oneplus/oneplus9rt/proprietary/odm/bin/init.oplus.fingerprints.sh:$(TARGET_COPY_OUT_ODM)/bin/init.oplus.fingerprints.sh \
     vendor/oneplus/oneplus9rt/proprietary/odm/bin/oplus_sensor_fb:$(TARGET_COPY_OUT_ODM)/bin/oplus_sensor_fb \
     vendor/oneplus/oneplus9rt/proprietary/odm/etc/acdbdata/Audio_Parameter_Version.txt:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Audio_Parameter_Version.txt \
     vendor/oneplus/oneplus9rt/proprietary/odm/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Bluetooth_cal.acdb \
@@ -462,6 +464,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus9rt/proprietary/odm/etc/camera/tonemap/tonemap_lut_9:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_9 \
     vendor/oneplus/oneplus9rt/proprietary/odm/etc/camera/wide.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/wide.bin \
     vendor/oneplus/oneplus9rt/proprietary/odm/etc/init/calibrationOutput_uw.rc:$(TARGET_COPY_OUT_ODM)/etc/init/calibrationOutput_uw.rc \
+    vendor/oneplus/oneplus9rt/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/oneplus/oneplus9rt/proprietary/odm/etc/init/vendor.pixelworks.hardware.display.iris-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.pixelworks.hardware.display.iris-service.rc \
     vendor/oneplus/oneplus9rt/proprietary/odm/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service.rc \
     vendor/oneplus/oneplus9rt/proprietary/odm/etc/inparm/irissoft/inParm.lst:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm.lst \
@@ -580,6 +583,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus9rt/proprietary/odm/lib/rfsa/adsp/libvdblurless_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libvdblurless_skel.so \
     vendor/oneplus/oneplus9rt/proprietary/odm/lib/rfsa/adsp/libvdsuperphoto_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libvdsuperphoto_skel.so \
     vendor/oneplus/oneplus9rt/proprietary/odm/lib/rfsa/adsp/libworker_pool.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libworker_pool.so \
+    vendor/oneplus/oneplus9rt/proprietary/odm/lib64/anc.hal.so:$(TARGET_COPY_OUT_ODM)/lib64/anc.hal.so \
     vendor/oneplus/oneplus9rt/proprietary/odm/lib64/camera/arcsoft_calibration_uw.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/arcsoft_calibration_uw.bin \
     vendor/oneplus/oneplus9rt/proprietary/odm/lib64/camera/arcsoft_calibration_wt.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/arcsoft_calibration_wt.bin \
     vendor/oneplus/oneplus9rt/proprietary/odm/lib64/camera/arcsoft_dc_calibration_t.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/arcsoft_dc_calibration_t.bin \
@@ -602,6 +606,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus9rt/proprietary/odm/lib64/camera/components/com.oplus.node.pilot.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.pilot.so \
     vendor/oneplus/oneplus9rt/proprietary/odm/lib64/camera/components/com.oplus.node.preview.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.preview.so \
     vendor/oneplus/oneplus9rt/proprietary/odm/lib64/camera/components/com.oplus.node.videoenhance.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.videoenhance.so \
+    vendor/oneplus/oneplus9rt/proprietary/odm/lib64/hw/fingerprint.goodix_G3.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G3.default.so \
     vendor/oneplus/oneplus9rt/proprietary/odm/lib64/hwconfigurationutiltest:$(TARGET_COPY_OUT_ODM)/lib64/hwconfigurationutiltest \
     vendor/oneplus/oneplus9rt/proprietary/odm/lib64/libAlgoInterface.so:$(TARGET_COPY_OUT_ODM)/lib64/libAlgoInterface.so \
     vendor/oneplus/oneplus9rt/proprietary/odm/lib64/libAlgoProcess.so:$(TARGET_COPY_OUT_ODM)/lib64/libAlgoProcess.so \
@@ -674,6 +679,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus9rt/proprietary/odm/lib64/libdualcam_image_optical_zoom.so:$(TARGET_COPY_OUT_ODM)/lib64/libdualcam_image_optical_zoom.so \
     vendor/oneplus/oneplus9rt/proprietary/odm/lib64/libdualcam_optical_zoom_control.so:$(TARGET_COPY_OUT_ODM)/lib64/libdualcam_optical_zoom_control.so \
     vendor/oneplus/oneplus9rt/proprietary/odm/lib64/libdualcam_video_optical_zoom.so:$(TARGET_COPY_OUT_ODM)/lib64/libdualcam_video_optical_zoom.so \
+    vendor/oneplus/oneplus9rt/proprietary/odm/lib64/libgf_hal_G3.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G3.so \
     vendor/oneplus/oneplus9rt/proprietary/odm/lib64/libhta.so:$(TARGET_COPY_OUT_ODM)/lib64/libhta.so \
     vendor/oneplus/oneplus9rt/proprietary/odm/lib64/libhwconfigurationutil.so:$(TARGET_COPY_OUT_ODM)/lib64/libhwconfigurationutil.so \
     vendor/oneplus/oneplus9rt/proprietary/odm/lib64/libhyperlapse.so:$(TARGET_COPY_OUT_ODM)/lib64/libhyperlapse.so \
@@ -709,10 +715,21 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus9rt/proprietary/odm/lib64/libtriplecam_video_optical_zoom.so:$(TARGET_COPY_OUT_ODM)/lib64/libtriplecam_video_optical_zoom.so \
     vendor/oneplus/oneplus9rt/proprietary/odm/lib64/libwatermark_photo.so:$(TARGET_COPY_OUT_ODM)/lib64/libwatermark_photo.so \
     vendor/oneplus/oneplus9rt/proprietary/odm/lib64/vendor.oplus.hardware.cammidasservice@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.cammidasservice@1.0.so \
+    vendor/oneplus/oneplus9rt/proprietary/odm/lib64/vendor.oplus.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.commondcs@1.0.so \
     vendor/oneplus/oneplus9rt/proprietary/odm/lib64/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.orms@1.0.so \
+    vendor/oneplus/oneplus9rt/proprietary/odm/lib64/vendor.oplus.hardware.performance@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.performance@1.0.so \
     vendor/oneplus/oneplus9rt/proprietary/odm/lib64/vendor.pixelworks.hardware.display@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.pixelworks.hardware.display@1.0.so \
     vendor/oneplus/oneplus9rt/proprietary/odm/lib64/vendor.pixelworks.hardware.display@1.1.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.pixelworks.hardware.display@1.1.so \
     vendor/oneplus/oneplus9rt/proprietary/odm/lib64/vendor.pixelworks.hardware.feature@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.pixelworks.hardware.feature@1.0.so \
+    vendor/oneplus/oneplus9rt/proprietary/odm/vendor/firmware/goodixfp.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b00 \
+    vendor/oneplus/oneplus9rt/proprietary/odm/vendor/firmware/goodixfp.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b01 \
+    vendor/oneplus/oneplus9rt/proprietary/odm/vendor/firmware/goodixfp.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b02 \
+    vendor/oneplus/oneplus9rt/proprietary/odm/vendor/firmware/goodixfp.b03:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b03 \
+    vendor/oneplus/oneplus9rt/proprietary/odm/vendor/firmware/goodixfp.b04:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b04 \
+    vendor/oneplus/oneplus9rt/proprietary/odm/vendor/firmware/goodixfp.b05:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b05 \
+    vendor/oneplus/oneplus9rt/proprietary/odm/vendor/firmware/goodixfp.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b06 \
+    vendor/oneplus/oneplus9rt/proprietary/odm/vendor/firmware/goodixfp.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b07 \
+    vendor/oneplus/oneplus9rt/proprietary/odm/vendor/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.mdt \
     vendor/oneplus/oneplus9rt/proprietary/vendor/bin/feature_enabler_client:$(TARGET_COPY_OUT_VENDOR)/bin/feature_enabler_client \
     vendor/oneplus/oneplus9rt/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
     vendor/oneplus/oneplus9rt/proprietary/vendor/bin/hw/vendor.qti.hardware.display.composer-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.display.composer-service \
@@ -1203,5 +1220,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libthermalclient \
+    manifest_oplus_fingerprint \
     vendor.pixelworks.hardware.display.iris-service \
     vendor.pixelworks.hardware.feature.irisfeature-service
