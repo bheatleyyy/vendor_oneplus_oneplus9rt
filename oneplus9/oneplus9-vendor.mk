@@ -6,61 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oneplus/oneplus9
 
 PRODUCT_COPY_FILES += \
-    vendor/oneplus/oneplus9/proprietary/odm/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_ODM)/bin/hw/android.hardware.drm@1.3-service.widevine \
-    vendor/oneplus/oneplus9/proprietary/odm/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/19815/FW_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19815/FW_S3908_SAMSUNG.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/19815/FW_S3908_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19815/FW_S3908_SAMSUNG_FAE.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/19815/LIMIT_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19815/LIMIT_S3908_SAMSUNG.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/19825/FW_S6SY792_SAMSUNG.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/19825/FW_S6SY792_SAMSUNG.bin \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/19825/FW_S6SY792_SAMSUNG_FAE.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/19825/FW_S6SY792_SAMSUNG_FAE.bin \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/19825/LIMIT_S6SY792_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19825/LIMIT_S6SY792_SAMSUNG.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/20031/FW_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20031/FW_S3908_SAMSUNG.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/20031/FW_S3908_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20031/FW_S3908_SAMSUNG_FAE.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/20031/LIMIT_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20031/LIMIT_S3908_SAMSUNG.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/20085/FW_S3908_BOE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20085/FW_S3908_BOE.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/20085/FW_S3908_BOE_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20085/FW_S3908_BOE_FAE.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/20085/FW_ST80Y_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20085/FW_ST80Y_SAMSUNG.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/20085/FW_ST80Y_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20085/FW_ST80Y_SAMSUNG_FAE.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/20085/LIMIT_S3908_BOE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20085/LIMIT_S3908_BOE.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/20085/LIMIT_ST80Y_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20085/LIMIT_ST80Y_SAMSUNG.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/20085/LIMIT_ST80Y_SAMSUNG_AGING.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20085/LIMIT_ST80Y_SAMSUNG_AGING.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/20627/FW_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20627/FW_FT3518_SAMSUNG.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/20627/FW_FT3518_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20627/FW_FT3518_SAMSUNG_FAE.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/20627/LIMIT_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20627/LIMIT_FT3518_SAMSUNG.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/20659/FW_S6SY792_SAMSUNG.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/20659/FW_S6SY792_SAMSUNG.bin \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/20659/FW_S6SY792_SAMSUNG_FAE.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/20659/FW_S6SY792_SAMSUNG_FAE.bin \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/20659/LIMIT_S6SY792_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20659/LIMIT_S6SY792_SAMSUNG.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/20820/FW_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20820/FW_S3908_SAMSUNG.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/20820/FW_S3908_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20820/FW_S3908_SAMSUNG_FAE.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/20820/LIMIT_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20820/LIMIT_S3908_SAMSUNG.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/21005/FW_S3908_BOE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21005/FW_S3908_BOE.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/21005/FW_S3908_BOE_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21005/FW_S3908_BOE_FAE.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/21005/FW_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21005/FW_S3908_SAMSUNG.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/21005/FW_S3908_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21005/FW_S3908_SAMSUNG_FAE.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/21005/LIMIT_S3908_BOE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21005/LIMIT_S3908_BOE.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/21005/LIMIT_S3908_BOE_AGING.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21005/LIMIT_S3908_BOE_AGING.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/21005/LIMIT_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21005/LIMIT_S3908_SAMSUNG.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/21005/LIMIT_S3908_SAMSUNG_AGING.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21005/LIMIT_S3908_SAMSUNG_AGING.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/21031/FW_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21031/FW_FT3518_SAMSUNG.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/21031/FW_FT3518_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21031/FW_FT3518_SAMSUNG_FAE.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/21031/LIMIT_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21031/LIMIT_FT3518_SAMSUNG.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/21051/FW_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21051/FW_S3908_SAMSUNG.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/21051/FW_S3908_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21051/FW_S3908_SAMSUNG_FAE.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/21051/LIMIT_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21051/LIMIT_S3908_SAMSUNG.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/21075/FW_NF_ILI7807S_BOE_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21075/FW_NF_ILI7807S_BOE_FAE.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/21075/FW_NF_ILI7807S_DSJM.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21075/FW_NF_ILI7807S_DSJM.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/21075/FW_NF_ILI7807S_DSJM_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21075/FW_NF_ILI7807S_DSJM_FAE.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/21075/LIMIT_NF_ILI7807S_BOE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21075/LIMIT_NF_ILI7807S_BOE.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/21075/LIMIT_NF_ILI7807S_DSJM.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21075/LIMIT_NF_ILI7807S_DSJM.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/21147/FW_FT3658U_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21147/FW_FT3658U_SAMSUNG.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/21147/FW_FT3658U_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21147/FW_FT3658U_SAMSUNG_FAE.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/21147/LIMIT_FT3658U_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21147/LIMIT_FT3658U_SAMSUNG.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/21617/FW_FT3658U_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21617/FW_FT3658U_SAMSUNG.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/21617/FW_FT3658U_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21617/FW_FT3658U_SAMSUNG_FAE.img \
-    vendor/oneplus/oneplus9/proprietary/odm/firmware/tp/21617/LIMIT_FT3658U_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21617/LIMIT_FT3658U_SAMSUNG.img \
-    vendor/oneplus/oneplus9/proprietary/odm/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_ODM)/lib64/liboemcrypto.so \
-    vendor/oneplus/oneplus9/proprietary/odm/lib64/libwvhidl.so:$(TARGET_COPY_OUT_ODM)/lib64/libwvhidl.so \
-    vendor/oneplus/oneplus9/proprietary/odm/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_ODM)/lib64/mediadrm/libwvdrmengine.so \
     vendor/oneplus/oneplus9/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/oneplus/oneplus9/proprietary/vendor/bin/adpl:$(TARGET_COPY_OUT_VENDOR)/bin/adpl \
     vendor/oneplus/oneplus9/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
@@ -122,7 +67,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus9/proprietary/vendor/bin/qti:$(TARGET_COPY_OUT_VENDOR)/bin/qti \
     vendor/oneplus/oneplus9/proprietary/vendor/bin/qtigetprop:$(TARGET_COPY_OUT_VENDOR)/bin/qtigetprop \
     vendor/oneplus/oneplus9/proprietary/vendor/bin/qtisetprop:$(TARGET_COPY_OUT_VENDOR)/bin/qtisetprop \
-    vendor/oneplus/oneplus9/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
     vendor/oneplus/oneplus9/proprietary/vendor/bin/shsusrd:$(TARGET_COPY_OUT_VENDOR)/bin/shsusrd \
     vendor/oneplus/oneplus9/proprietary/vendor/bin/slim_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/slim_daemon \
     vendor/oneplus/oneplus9/proprietary/vendor/bin/ssgqmigd:$(TARGET_COPY_OUT_VENDOR)/bin/ssgqmigd \
@@ -226,7 +170,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus9/proprietary/vendor/etc/init/vendor.qti.hardware.trustedui@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.trustedui@1.0-service-qti.rc \
     vendor/oneplus/oneplus9/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
     vendor/oneplus/oneplus9/proprietary/vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.qspmhal@1.0-service.rc \
-    vendor/oneplus/oneplus9/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/oneplus/oneplus9/proprietary/vendor/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.secure_element@1.2-service.rc \
     vendor/oneplus/oneplus9/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/oneplus/oneplus9/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
@@ -248,7 +191,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus9/proprietary/vendor/etc/media_profiles_lahaina.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_lahaina.xml \
     vendor/oneplus/oneplus9/proprietary/vendor/etc/media_profiles_lahaina_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_lahaina_vendor.xml \
     vendor/oneplus/oneplus9/proprietary/vendor/etc/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml \
-    vendor/oneplus/oneplus9/proprietary/vendor/etc/oplus_Widevine_licenses.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/oplus_Widevine_licenses.pfm \
     vendor/oneplus/oneplus9/proprietary/vendor/etc/permissions/android.hardware.light.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.light.xml \
     vendor/oneplus/oneplus9/proprietary/vendor/etc/permissions/vendor.qti.hardware.factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.qti.hardware.factory.xml \
     vendor/oneplus/oneplus9/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
@@ -548,7 +490,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus9/proprietary/vendor/lib64/libsysmon_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysmon_cdsp_skel.so \
     vendor/oneplus/oneplus9/proprietary/vendor/lib64/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsystem_health_mon.so \
     vendor/oneplus/oneplus9/proprietary/vendor/lib64/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtime_genoff.so \
-    vendor/oneplus/oneplus9/proprietary/vendor/lib64/libtrustedapploader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrustedapploader.so \
     vendor/oneplus/oneplus9/proprietary/vendor/lib64/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtzdrmgenprov.so \
     vendor/oneplus/oneplus9/proprietary/vendor/lib64/libvppclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvppclient.so \
     vendor/oneplus/oneplus9/proprietary/vendor/lib64/libvpphcp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpphcp.so \
@@ -685,5 +626,4 @@ PRODUCT_PACKAGES += \
     TimeService \
     vendor.qti.diag.hal.service \
     vendor.qti.gnss@4.0-service \
-    vendor.qti.hardware.limits@1.0-service \
-    manifest_android.hardware.drm@1.3-service.widevine
+    vendor.qti.hardware.limits@1.0-service
