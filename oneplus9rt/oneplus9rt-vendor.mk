@@ -528,6 +528,16 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus9rt/proprietary/odm/etc/lvacfs_params/3mic/audiozoom_3.txt:$(TARGET_COPY_OUT_ODM)/etc/lvacfs_params/3mic/audiozoom_3.txt \
     vendor/oneplus/oneplus9rt/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/oneplus/oneplus9rt/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
+    vendor/oneplus/oneplus9rt/proprietary/odm/etc/sensor.cfg:$(TARGET_COPY_OUT_ODM)/etc/sensor.cfg \
+    vendor/oneplus/oneplus9rt/proprietary/odm/etc/sensor/config/lahaina_qrd_ak0991x.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lahaina_qrd_ak0991x.json \
+    vendor/oneplus/oneplus9rt/proprietary/odm/etc/sensor/config/lahaina_qrd_alsps.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lahaina_qrd_alsps.json \
+    vendor/oneplus/oneplus9rt/proprietary/odm/etc/sensor/config/lahaina_qrd_cct.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lahaina_qrd_cct.json \
+    vendor/oneplus/oneplus9rt/proprietary/odm/etc/sensor/config/lahaina_qrd_cct_rear.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lahaina_qrd_cct_rear.json \
+    vendor/oneplus/oneplus9rt/proprietary/odm/etc/sensor/config/lahaina_qrd_icm4x6xx.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lahaina_qrd_icm4x6xx.json \
+    vendor/oneplus/oneplus9rt/proprietary/odm/etc/sensor/config/lahaina_qrd_lsm6dso.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lahaina_qrd_lsm6dso.json \
+    vendor/oneplus/oneplus9rt/proprietary/odm/etc/sensor/config/lahaina_qrd_mmc56x3x.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lahaina_qrd_mmc56x3x.json \
+    vendor/oneplus/oneplus9rt/proprietary/odm/etc/sensor/config/lahaina_qrd_sx933x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lahaina_qrd_sx933x_0.json \
+    vendor/oneplus/oneplus9rt/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
     vendor/oneplus/oneplus9rt/proprietary/odm/etc/wifi/bdwlan.elf:$(TARGET_COPY_OUT_ODM)/etc/wifi/bdwlan.elf \
     vendor/oneplus/oneplus9rt/proprietary/odm/etc/wifi/regdb.bin:$(TARGET_COPY_OUT_ODM)/etc/wifi/regdb.bin \
     vendor/oneplus/oneplus9rt/proprietary/odm/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_ODM)/firmware/tfa98xx.cnt \
@@ -1183,9 +1193,11 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus9rt/proprietary/vendor/lib64/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorslog.so \
     vendor/oneplus/oneplus9rt/proprietary/vendor/lib64/libsnapdragoncolor-manager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnapdragoncolor-manager.so \
     vendor/oneplus/oneplus9rt/proprietary/vendor/lib64/libsnapdragoncolor-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnapdragoncolor-qdcm.so \
+    vendor/oneplus/oneplus9rt/proprietary/vendor/lib64/libsns_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_api.so \
     vendor/oneplus/oneplus9rt/proprietary/vendor/lib64/libsns_device_mode_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_device_mode_stub.so \
     vendor/oneplus/oneplus9rt/proprietary/vendor/lib64/libsns_fastRPC_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_fastRPC_util.so \
     vendor/oneplus/oneplus9rt/proprietary/vendor/lib64/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_low_lat_stream_stub.so \
+    vendor/oneplus/oneplus9rt/proprietary/vendor/lib64/libsns_registry_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_registry_skel.so \
     vendor/oneplus/oneplus9rt/proprietary/vendor/lib64/libsnsapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnsapi.so \
     vendor/oneplus/oneplus9rt/proprietary/vendor/lib64/libsnsdiaglog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnsdiaglog.so \
     vendor/oneplus/oneplus9rt/proprietary/vendor/lib64/libssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc.so \
